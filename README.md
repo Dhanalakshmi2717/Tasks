@@ -1,92 +1,80 @@
-# Tasks
-📂 Projects Included
-🛡️ Transaction Fraud Detector
+# Task
 
-Detects suspicious bank transactions based on:
+Welcome to the **Python Utility Scripts Collection**! 
 
-High transaction amounts
+This repository contains a variety of Python scripts demonstrating **practical programming concepts**, perfect for learning, experimenting, and small projects.  
 
-Location change for the same user
-Concepts used:
 
-Dictionaries
 
-Conditional statements
+## 📂 Scripts Overview
 
-Looping and data tracking
+### 1. 🔐 Password Strength Checker
+- File: `password_strength.py`  
+- Checks password strength using:
+  - Length ✅
+  - Uppercase letters ✅
+  - Lowercase letters ✅
+  - Digits ✅
+  - Special characters ✅  
+- Output: `Weak`, `Medium`, `Strong`  
 
-🔃 Custom Sorting Engine
+### 2. 🛒 Inventory Management
+- File: `inventory.py`  
+- Features:
+  - Sell products 💰
+  - Calculate total inventory value 💵
+  - List low-stock items ⚠️  
+- Prints results directly.
 
-Sorts employee records using:
+### 3. 📝 Attendance Analysis
+- File: `attendance.py`  
+- Computes attendance percentage for students 📊  
+- Highlights students with **<75% attendance** ❌
 
-Salary (descending)
+### 4. 🎓 Student Performance Analysis
+- File: `students.py`  
+- Computes average marks & status:
+  - `Distinction` ✨
+  - `Pass` ✅
+  - `Fail` ❌  
+- Shows **class topper** 🏆
 
-Age and salary
+### 5. 📊 Log Analysis
+- File: `logs.py`  
+- Counts log types: `INFO`, `WARNING`, `ERROR`  
+- Finds **most common error** 🔥
 
-Dynamic user-defined keys
-Concepts used:
+### 6. 🧮 Matrix Operations
+- File: `matrix.py`  
+- Features:
+  - Check if matrix is **Toeplitz** ✔️
+  - Check if matrix is **Symmetric** ✔️
+  - Row with maximum sum 📈
+  - Rotate matrix 🔄
 
-sorted() function
+### 7. 👨‍💼 Employee Sorting
+- File: `employees.py`  
+- Sorts employees by:
+  - Salary 💵
+  - Age 🎂
+  - Dynamic keys 🧩
 
-Lambda expressions
+### 8. 💳 Fraud Detection
+- File: `fraud.py`  
+- Detects suspicious transactions:
+  - High-value transactions 💰
+  - Location changes 🌍
 
-Tuple-based sorting
+### 9. 🔗 URL Shortener
+- File: `url_shortener.py`  
+- Shortens URLs ⏩  
+- Expands URLs back ⬅️  
 
-🔗 Mini URL Shortener
+### 10. 🌤 Weather Analysis
+- File: `weather.py`  
+- Finds:
+  - Hottest day ☀️
+  - Average temperature 🌡️
+  - Rainy days ☔  
 
-A simple URL shortener system that:
 
-Converts long URLs into short codes
-
-Retrieves original URLs
-
-Handles duplicate URLs
-Concepts used:
-
-Classes & objects
-
-Dictionaries
-
-Basic system design logic
-
-🧩 Matrix Pattern Validator
-
-Performs multiple operations on a 2D matrix:
-
-Toeplitz matrix check
-
-Symmetric matrix check
-
-Row with maximum sum
-
-90° clockwise matrix rotation
-Concepts used:
-
-Nested loops
-
-Matrix traversal
-
-Logical problem solving
-
-📊 Smart Attendance Tracker
-
-Processes attendance records to:
-
-Calculate attendance percentage
-
-Identify students below 75% attendance
-Concepts used:
-
-Data aggregation
-
-defaultdict
-
-Real-world data handling
-
-🛠️ Technologies Used
-
-Python 3
-
-VS Code
-
-Standard Python libraries only
